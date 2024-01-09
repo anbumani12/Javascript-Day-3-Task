@@ -16,7 +16,7 @@ if (JSON1 === JSON2) {
   console.log("The JSON objects are not equal.");
 }
 
-//Q2 Use the rest countries API URL and display all the country flags in the console
+//Q2 Use the rest countries API URL and Display all the country flags in the console
 
 var request = new XMLHttpRequest();
 request.open("GET","https://restcountries.com/v3.1/all",true)
